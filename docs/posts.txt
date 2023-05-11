@@ -1,0 +1,61 @@
+//USER DETAILS
+
+{
+    "username":"sanjivpaul123",
+    "email":"sanjiv123@gmail.com",
+    "password":"123"
+}
+
+{
+        "_id": "6342474a3d2914563c47c55b",
+        "username": "sanjivpaul123",
+        "email": "sanjiv123@gmail.com",
+        "profilePic": "",
+        "createdAt": "2022-10-09T04:00:10.532Z",
+        "updatedAt": "2022-10-09T04:00:10.532Z",
+        "__v": 0
+}
+
+//POST API TEST
+
+{
+    "username":"sanjivpaul123",
+    "title":"test",
+    "desc":"test desc"
+}
+
+{
+    "status": true,
+    "savedPost": {
+        "title": "test",
+        "desc": "test desc",
+        "username": "sanjivpaul123",
+        "categories": [],
+        "_id": "63424d93d528968e2fc12fe2",
+        "createdAt": "2022-10-09T04:26:59.708Z",
+        "updatedAt": "2022-10-09T04:26:59.708Z",
+        "__v": 0
+    }
+}
+
+
+//updated
+{
+    "username":"sanjivpaul123",
+    "title":"test2updated",
+    "desc":"this is test desc 2"
+}
+
+{
+    "status": true,
+    "updatedPost": {
+        "_id": "63424e27d528968e2fc12fe6",
+        "title": "test2updated",
+        "desc": "this is test desc 2",
+        "username": "sanjivpaul123",
+        "categories": [],
+        "createdAt": "2022-10-09T04:29:27.989Z",
+        "updatedAt": "2022-10-09T13:54:35.511Z",
+        "__v": 0
+    }
+}

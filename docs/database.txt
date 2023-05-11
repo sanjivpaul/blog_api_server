@@ -1,0 +1,23 @@
+sanjivblogapi
+
+mongodb://127.0.0.1:27017/batch48edurekasanjiv
+
+
+# db.blogs.insert(
+                    {
+                        title:"JavaScript Array Methods",
+                        desc:"There we have some javascript methods",
+                        contact:1234567897
+                    }
+                )
+
+
+mongodb+srv://sanjivpaul:sanjiv123@batch-48.mmh6xlf.mongodb.net/testdb?retryWrites=true&w=majority
+
+
+
+, {
+    // useNewUrlParse: true,
+    // useUnifiedTopology: true,
+    // useCreateIndex: true,
+  }

@@ -1,0 +1,5 @@
+//STEP01
+    import multer (app.js)
+
+//STEP02
+    create storage

@@ -1,0 +1,5 @@
+Initialize Directorie
+    -npm init
+
+install dependencies
+    -npm install express mongoose dotenv multer

@@ -8,7 +8,7 @@ const cors = require("cors");
 
 //02.create instance
 const app = express();
-const PORT = 7000;
+const PORT = 5000;
 
 app.use(cors());
 

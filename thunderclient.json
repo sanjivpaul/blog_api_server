@@ -1,0 +1,370 @@
+{
+	"info": {
+		"_postman_id": "f0806833-3734-4a6d-a11d-72fb3acc3993",
+		"name": "BlogApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/api/auth/registrer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sanjivpaul123\",\r\n    \"email\":\"sanjiv123@gmail.com\",\r\n    \"password\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sanjiv10\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/users/6341b20c029a09bbc0014e93",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"6341b20c029a09bbc0014e93\",\r\n    \"username\":\"sanjiv12\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/users/6341b20c029a09bbc0014e93",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"6341b20c029a09bbc0014e93"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/users/6341b20c029a09bbc0014e93",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"6341b20c029a09bbc0014e93\",\r\n    \"username\":\"sanjiv12\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/users/6341b20c029a09bbc0014e93",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"6341b20c029a09bbc0014e93"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/users/6342474a3d2914563c47c55b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sanjivpaul123\",\r\n    \"email\":\"sanjiv123@gmail.com\",\r\n    \"password\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/users/6342474a3d2914563c47c55b",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"6342474a3d2914563c47c55b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/posts/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sanjivpaul123\",\r\n    \"title\":\"test4\",\r\n    \"desc\":\"this is test desc 4\",\r\n    \"categories\":[\"music\", \"cars\", \"bike\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/posts/63424e27d528968e2fc12fe6",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"posts",
+						"63424e27d528968e2fc12fe6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/posts/63424e27d528968e2fc12fe6",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sanjivpaul123\",\r\n    \"title\":\"test2updated\",\r\n    \"desc\":\"this is test desc 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/posts/63424e27d528968e2fc12fe6",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"posts",
+						"63424e27d528968e2fc12fe6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/posts/63424e27d528968e2fc12fe6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sanjivpaul123\",\r\n    \"title\":\"test2updated\",\r\n    \"desc\":\"this is test desc 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/posts/63424e27d528968e2fc12fe6",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"posts",
+						"63424e27d528968e2fc12fe6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/posts/63424d93d528968e2fc12fe2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/api/posts/63424d93d528968e2fc12fe2",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"posts",
+						"63424d93d528968e2fc12fe2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/posts/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/api/posts/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/posts?user=sanjiv",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/api/posts?user=sanjiv",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"posts"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "sanjiv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/categories/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"python\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/categories/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"music\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/categories/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

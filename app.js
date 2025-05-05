@@ -22,11 +22,11 @@ app.use("/", APIRouters);
 dotenv.config(); //for env method
 require("dotenv").config();
 
-console.log("process.env.MONGO_URL", process.env.MONGO_URL);
+console.log("process.env.MONGO_URL", process.env.MONGODB_URI);
 
 //mongosse connecting:
 mongoose
-  .connect("mongodb://localhost:27017/blogdb", {
+  .connect(process.env.MONGODB_URI, {
     useUnifiedTopology: true,
   })
   .then(console.log("connected to MongoDB "))

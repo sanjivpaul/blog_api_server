@@ -8,7 +8,7 @@ const cors = require("cors");
 
 //02.create instance
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 
 app.use(cors());
 
@@ -20,10 +20,13 @@ app.use(express.urlencoded({ extended: false })); //normal post data to json dat
 app.use("/", APIRouters);
 
 dotenv.config(); //for env method
+require("dotenv").config();
+
+console.log("process.env.MONGO_URL", process.env.MONGO_URL);
 
 //mongosse connecting:
 mongoose
-  .connect(process.env.MONGO_URL, {
+  .connect("mongodb://localhost:27017/blogdb", {
     useUnifiedTopology: true,
   })
   .then(console.log("connected to MongoDB "))
@@ -53,6 +56,6 @@ app.listen(PORT, (req, res) => {
   try {
     console.log("Backend is runnin on port", PORT);
   } catch (error) {
-    error
+    error;
   }
 });
